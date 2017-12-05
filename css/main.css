@@ -1,0 +1,30 @@
+/* general style */
+* {
+  margin: 0;
+}
+
+.background-1 {
+  background-color: #F78E69;
+}
+
+.background-2 {
+  background-color: #ABE188;  
+}
+
+.heigth-1 {
+  height: 100vh;
+}
+
+.heigth-2 {
+  height: 80vh;
+}
+
+/* style */
+
+header {
+  height: 20vh;
+}
+
+#pictures>figure {
+  background-color: white;
+}
