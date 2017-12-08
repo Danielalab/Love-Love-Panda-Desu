@@ -14,5 +14,5 @@ Crear una página web para amantes de los pandas que tenga un diseño _**respons
 + En la carpeta *assets/img* se encuentran las imágenes de diversos pandas que se incluyeron en eldiseño de la web. 
 + En el archivo *css/main.css* se detallan los diversos estilos utilizados tanto para _**mobile**_ como _**desktop**_ al igual que el **grid system**.
 + En el archivo *index.html* se encuentra toda la estructura de la web.
-+ Se utilizó para el diseño de la web la fuente *Raleway* extraida de [Google Fonts](http://joedicastro.com "titulo").
++ Se utilizó para el diseño de la web la fuente *Raleway* extraida de [Google Fonts](https://fonts.google.com/ "titulo").
 
