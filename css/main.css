@@ -1,6 +1,7 @@
 /* GRID */
+
 * {
-  box-sizing: border-box;  
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -20,209 +21,36 @@
   float: left;
 }
 
-.col-xs-1 {
-  width: 8.33333333%;
-}
-
-.col-xs-2 {
-  width: 16.66666667%;
-}
-
-.col-xs-3 {
-  width: 25%;
-}
-
-.col-xs-4 {
-  width: 33.33333333%;
-}
-
-.col-xs-5 {
-  width: 41.66666667%;
-}
-
-.col-xs-6 {
-  width: 50%;
-}
-
-.col-xs-7 {
-  width: 58.33333333%;
-}
-
-.col-xs-8 {
-  width: 66.66666667%;
-}
-
-.col-xs-9 {
-  width: 75%;
-}
-
 .col-xs-10 {
   width: 83.33333333%;
-}
-
-.col-xs-11 {
-  width: 91.66666667%;
 }
 
 .col-xs-12 {
   width: 100%;
 }
 
-.col-xs-offset-0 {
-  margin-left: 0%;
-}
-
 .col-xs-offset-1 {
   margin-left: 8.33333333%;
 }
 
-.col-xs-offset-2 {
-  margin-left: 16.66666667%;
-}
 
-.col-xs-offset-3 {
-  margin-left: 25%;
-}
-
-.col-xs-offset-4 {
-  margin-left: 33.33333333%;
-}
-
-.col-xs-offset-5 {
-  margin-left: 41.66666667%;
-}
-
-.col-xs-offset-6 {
-  margin-left: 50%;
-}
-
-.col-xs-offset-7 {
-  margin-left: 58.33333333%;
-}
-
-.col-xs-offset-8 {
-  margin-left: 66.66666667%;
-}
-
-.col-xs-offset-9 {
-  margin-left: 75%;
-}
-
-.col-xs-offset-10 {
-  margin-left: 83.33333333%;
-}
-
-.col-xs-offset-11 {
-  margin-left: 91.66666667%;
-}
-
-.col-xs-offset-12 {
-  margin-left: 100%;
-}
+/*  grid-desktop */
 
 @media (min-width: 768px) {
-  .col-sm-1 {
-    width: 8.33333333%;
-  }
-
-  .col-sm-2 {
-    width: 16.66666667%;
-  }
-
   .col-sm-3 {
     width: 25%;
   }
-
-  .col-sm-4 {
-    width: 33.33333333%;
-  }
-
-  .col-sm-5 {
-    width: 41.66666667%;
-  }
-
   .col-sm-6 {
     width: 50%;
   }
-
-  .col-sm-7 {
-    width: 58.33333333%;
-  }
-
-  .col-sm-8 {
-    width: 66.66666667%;
-  }
-
-  .col-sm-9 {
-    width: 75%;
-  }
-
-  .col-sm-10 {
-    width: 83.33333333%;
-  }
-
-  .col-sm-11 {
-    width: 91.66666667%;
-  }
-
-  .col-sm-12 {
-    width: 100%;
-  }
-
-  .col-sm-offset-0 {
-    margin-left: 0%;
-  }
-
-  .col-sm-offset-1 {
-    margin-left: 8.33333333%;
-  }
-  
-  .col-sm-offset-2 {
-    margin-left: 16.66666667%;
-  }
-  
   .col-sm-offset-3 {
     margin-left: 25%;
   }
-  
-  .col-sm-offset-4 {
-    margin-left: 33.33333333%;
-  }
-  
-  .col-sm-offset-5 {
-    margin-left: 41.66666667%;
-  }
-  
-  .col-sm-offset-6 {
-    margin-left: 50%;
-  }
-  
-  .col-sm-offset-7 {
-    margin-left: 58.33333333%;
-  }
-  
-  .col-sm-offset-8 {
-    margin-left: 66.66666667%;
-  }
-  
-  .col-sm-offset-9 {
-    margin-left: 75%;
-  }
-  
-  .col-sm-offset-10 {
-    margin-left: 83.33333333%;
-  }
-  
-  .col-sm-offset-11 {
-    margin-left: 91.66666667%;
-  }
-  
-  .col-sm-offset-12 {
-    margin-left: 100%;
-  }
 }
 
+
 /* estilos reutilizables*/
+
 body {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -233,7 +61,7 @@ body {
 }
 
 .background-2 {
-  background-color: #ABE188;  
+  background-color: #ABE188;
 }
 
 .text-rigth {
@@ -244,14 +72,6 @@ body {
   text-align: center;
 }
 
-.heigth-1 {
-  height: 100vh;
-}
-
-.heigth-2 {
-  height: 80vh;
-}
-
 .bg-img {
   background-repeat: no-repeat;
   background-position: center center;
@@ -260,11 +80,12 @@ body {
   filter: grayscale(100%);
 }
 
-/* style */
+
+/* style mobile */
 
 header {
   height: 35vh;
-  padding: 10%; 
+  padding: 10%;
 }
 
 h1 {
@@ -272,7 +93,8 @@ h1 {
   font-weight: 900;
 }
 
-h1, h4 {
+h1,
+h4 {
   margin: 7% 2%;
 }
 
@@ -282,30 +104,78 @@ h3 {
 }
 
 .bg-img-1 {
-  background-image: url('../assets/img/uno.jpg') ;
+  background-image: url('../assets/img/uno.jpg');
   height: 35vh;
 }
 
-.bg-img-2, .bg-img-3 {
+.bg-img-2 {
   background-image: url('../assets/img/dos.jpg');
+}
+
+.bg-img-3 {
+  background-image: url('../assets/img/tres.jpg');
+}
+
+.bg-img-2,
+.bg-img-3 {
   height: 45vh;
 }
 
 figure>img {
-  margin: 2% ;
+  margin: 2%;
   border: 5px solid #fff;
 }
 
 section {
-  border-top: 3vh solid #F78E69 ;
-  border-bottom: 3vh solid #F78E69 ;  
+  border-top: 3vh solid #F78E69;
+  border-bottom: 3vh solid #F78E69;
   padding: 10% 0;
 }
 
 #about-pandas {
   padding: 8%;
-} 
+}
 
 footer {
   padding: 3% 5%;
+}
+
+
+/* style desktop */
+
+@media (min-width:768px) {
+  /* estilos individuales*/
+  header {
+    height: 28vh;
+    padding: 2%;
+  }
+  h1,
+  h4 {
+    margin: 1% 2%;
+    letter-spacing: 0.04em;
+  }
+  h1 {
+    font-size: 52px;
+  }
+  #tittle-pictures {
+    font-size: 52px;
+    margin-bottom: 4.5%;
+  }
+  .heigth-1 {
+    height: 80vh;
+  }
+  .heigth-2 {
+    height: 95vh;
+  }
+  section,
+  #about-pandas,
+  #pictures {
+    padding: 3.5%;
+  }
+  figure>img {
+    border: 10px solid #ffffff;
+  }
+  footer {
+    padding: 1% 3%;
+  }
 }
